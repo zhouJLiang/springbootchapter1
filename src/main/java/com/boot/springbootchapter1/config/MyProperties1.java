@@ -5,7 +5,7 @@ import org.springframework.context.annotation.PropertySource;
 import org.springframework.stereotype.Component;
 
 @Component
-@PropertySource("classpath:dev.properties")
+@PropertySource("classpath:application-dev.properties")
 @ConfigurationProperties("cfg1")
 public class MyProperties1 {
     private int age;
